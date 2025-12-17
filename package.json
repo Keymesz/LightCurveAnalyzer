@@ -1,0 +1,14 @@
+{
+  "name": "lightcurveanalyzer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "babel lightcurveanalyzer.jsx --out-file dist/lightcurveanalyzer.js --presets @babel/preset-react,@babel/preset-env"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5"
+  }
+}
